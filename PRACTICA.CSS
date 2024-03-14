@@ -1,0 +1,55 @@
+body{ /* *Estilo de body*/
+    font-family: Arial, Helvetica, sans-serif; /*Fuente para el texto*/
+    margin: 0; /*Elimina el margen alreededor del cuerpo*/
+    padding: 0; /*Elimina el relleno alrededor del cuerpo*/
+    background-color: aliceblue; /*Color de fondo*/
+}
+
+header{ /* Estilo  del encabezado*/
+    background-color: #1cbe16;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav{ /*Estilo de navegacion*/
+    background-color: #444; /*Color de fondo de la barra de navegacion*/
+    color: white; /*Color de texto en la barra de navegacion*/
+    padding: 10px; /*Relleno de la barra de navegacion*/
+}
+nav ul{
+    list-style: none; /*Elimina los puntos de la lista*/
+    margin: 0; /*Elimina el margen de la lista*/
+    padding: 0; /*Elimina el relleno de la lista*/
+    text-align: center; /*Alinea los elementos de la lista*/
+}
+
+/*Estilos para cada elemnto de la lista de navegacion*/
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Estilos dentro de la lista de contenido*/
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+/*Estilo para seccion de contenido principal*/
+section{
+    padding: 20opx;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #333;
+    color: wheat;
+    padding: 10px 0;
+    text-align: center;
+    position:fixed ;
+    bottom: 0;
+    width: 100%;
+}
